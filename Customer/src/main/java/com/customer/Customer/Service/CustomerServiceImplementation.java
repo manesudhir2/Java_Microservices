@@ -31,8 +31,6 @@ public class CustomerServiceImplementation implements CustomerInterface {
 			Customer c1= itr.next();
 			if(c1.getId() == id) {
 				rc=c1;
-			}else {
-				System.out.println("Not found");
 			}
 		}
 		return rc;
