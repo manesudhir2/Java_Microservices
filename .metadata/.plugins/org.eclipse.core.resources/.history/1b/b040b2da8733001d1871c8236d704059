@@ -1,0 +1,20 @@
+package com.customer.Customer;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.customer.Customer.Service.CustomerServiceImplementation;
+
+@RestController
+@RequestMapping("/Customer")
+public class CustomerController {
+	
+	@Autowired
+	CustomerServiceImplementation csi;
+	
+	@RequestMapping("/Demo")
+	public String DemoMethod() {
+		return "Customer is working";
+	}
+}

@@ -1,0 +1,18 @@
+package com.customer.Customer;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.customer.Customer.Service.CustomerServiceImplementation;
+
+@RestController
+@RequestMapping("/Customer")
+public class CustomerController {
+	
+	CustomerServiceImplementation csi;
+	
+	@RequestMapping("/Demo")
+	public String DemoMethod() {
+		return "Customer is working";
+	}
+}

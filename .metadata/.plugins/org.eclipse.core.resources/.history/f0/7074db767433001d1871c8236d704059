@@ -1,0 +1,9 @@
+package com.customer.Customer.Model;
+
+public class Contact {
+
+	private String email;
+	private Long number;
+	
+	
+}

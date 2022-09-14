@@ -1,0 +1,16 @@
+package com.contact;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.contact.service.ContactServiceImplementation;
+
+@RestController
+public class ContactController {
+	
+	@Autowired
+	ContactServiceImplementation csi;
+	
+	
+
+}

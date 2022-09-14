@@ -1,0 +1,41 @@
+package com.customer.Customer.Service;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.customer.Customer.Model.Customer;
+
+@Service
+public class CustomerServiceImplementation implements CustomerInterface {
+
+	
+	List<Customer> list = List.of(
+	
+			new Customer("Sudhir",23),
+			new Customer("Siddhi",27),
+			new Customer("Rahul",29)
+	);
+	
+			
+			
+	
+	@Override
+	public Customer getCustomer(int id) {
+		
+		
+		Iterator itr = list.iterator();
+		Customer rc = null;
+		while(itr.hasNext()) {
+			Customer c1= (Customer) itr.next();
+			if(c1.getId() == id) {
+				rc=c1;
+			}else {
+				System.out.println("Not found");
+			}
+		}
+		return rc;
+	}
+
+}

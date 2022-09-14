@@ -1,0 +1,14 @@
+package com.customer.Customer.Model;
+
+import java.util.List;
+
+public class Customer {
+
+	private String name;
+	private int id;
+	private List<Contact> contact;
+	
+	
+	
+	
+}

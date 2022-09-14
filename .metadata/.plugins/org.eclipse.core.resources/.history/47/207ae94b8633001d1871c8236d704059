@@ -1,0 +1,34 @@
+package com.customer.Customer.Service;
+
+import java.util.Iterator;
+import java.util.List;
+
+import com.customer.Customer.Model.Customer;
+
+public class CustomerServiceImplementation implements CustomerInterface {
+
+	
+	List<Customer> list = List.of(
+	
+			new Customer("Sudhir",23),
+			new Customer("Siddhi",27)
+	);
+	
+			
+			
+	
+	@Override
+	public Customer getCustomer(int id) {
+		
+		
+		Iterator itr = list.iterator();
+		
+		while(itr.hasNext()) {
+			Customer c1= itr.next();
+			
+		}
+		
+		return null;
+	}
+
+}

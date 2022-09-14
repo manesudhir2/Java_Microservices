@@ -1,0 +1,6 @@
+package com.customer.Customer.Service;
+
+public interface CustomerInterface {
+	
+	public Customer getCustomer(int id);
+}

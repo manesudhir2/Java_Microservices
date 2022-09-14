@@ -1,0 +1,22 @@
+package com.contact.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.contact.model.Contact;
+
+@Service
+public class ContactServiceImplementation implements ContactService{
+
+	//Fake list
+	
+	List<Contact> clist = new ArrayList<>();
+	
+	@Override
+	public List<Contact> getContacts(int id) {
+		
+		return null;
+	}
+
+}

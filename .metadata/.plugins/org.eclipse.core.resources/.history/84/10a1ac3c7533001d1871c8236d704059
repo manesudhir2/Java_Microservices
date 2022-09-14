@@ -1,0 +1,33 @@
+package com.customer.Customer.Model;
+
+import java.util.List;
+
+public class Customer {
+
+	private String name;
+	private int id;
+	private List<Contact> contact;
+	
+	
+	
+	
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public List<Contact> getContact() {
+		return contact;
+	}
+	public void setContact(List<Contact> contact) {
+		this.contact = contact;
+	}
+}

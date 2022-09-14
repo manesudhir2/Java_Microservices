@@ -1,0 +1,29 @@
+package com.customer.Customer.Service;
+
+import java.util.List;
+
+import com.customer.Customer.Model.Customer;
+
+public class CustomerServiceImplementation implements CustomerInterface {
+
+	List<Customer> list = List.of(
+			
+			new Customer(name:"Sudhir", id:"27"),
+			new Customer(name:"Siddhi", id:"28"),
+			new Customer(name:"Rahul", id:"29")
+			
+			);
+			
+			
+	
+	
+	@Override
+	public Customer getCustomer(int id) {
+		
+		
+		
+		
+		return null;
+	}
+
+}
