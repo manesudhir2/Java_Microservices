@@ -5221,3 +5221,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2022-09-16 13:18:24,018 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-09-16 13:18:24,018 [Worker-234: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/sudhiraliasharshadshrirangmane/Desktop/Practice_Microservices/discoveryserver/src/test/resources
 2022-09-17 13:28:59,012 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-09-18 11:37:37,514 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
